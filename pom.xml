@@ -57,9 +57,9 @@
 
    <scm>
 
-        <connection>scm:git:git@github.com:SriDevops-T/TestPetclinic.git</connection>
-        <developerConnection>scm:git:git@github.com:SriDevops-T/TestPetclinic.git</developerConnection>
-        <url>https://github.com/SriDevops-T/TestPetclinic</url>
+        <connection>scm:git:git@github.com:cicdpipeline/TestPetclinic.git</connection>
+        <developerConnection>scm:git:git@github.com:cicdpipeline/TestPetclinic.git</developerConnection>
+        <url>https://github.com/cicdpipeline/TestPetclinic</url>
         <tag>@{project.version}</tag>
     </scm>
     <dependencyManagement>
@@ -544,8 +544,8 @@
 <configuration> 
 <url>http://13.233.123.21:8080/manager/text</url> 
 <server>apache-tomcat</server> 
-<username>admin</username>
-<password>admin</password>
+<username>tomcat</username>
+<password>tomcat</password>
 <path>/petclinic</path> 
 </configuration> 
 </plugin>
